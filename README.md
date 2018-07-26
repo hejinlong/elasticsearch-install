@@ -2,7 +2,7 @@
 
 One-click installation of Elasticsearch cluster
 
-## installation steps:
+## Installation Steps:
 
 ### 1.Edit the cluster server host (write to the corresponding IP)
 ```
