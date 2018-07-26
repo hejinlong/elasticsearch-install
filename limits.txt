@@ -1,0 +1,6 @@
+es  soft  nofile   100001
+es  hard  nofile   100002
+es  soft  memlock  unlimited
+es  hard  memlock  unlimited
+es  soft  nproc    100001
+es  hard  nproc    unlimited
