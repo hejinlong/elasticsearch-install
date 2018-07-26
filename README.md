@@ -17,7 +17,7 @@ vim /etc/hosts
 chmod +x install.sh 
 ./install.sh 1
 ```
-1是安装server1，2是安装server2,3是安装server3
+1是安装server1，2是安装server2, 3是安装server3
 
 ### 3.访问es（改成相应的ip地址）
 ```
