@@ -1,10 +1,10 @@
 # Elasticsearch Install
 
-Elasticsearch集群一键安装
+One-click installation of Elasticsearch cluster
 
-## 安装步骤：
+## installation steps:
 
-### 1.编辑集群主机host（写入对应IP）
+### 1.Edit the cluster server host (write to the corresponding IP)
 ```
 vim /etc/hosts
 192.168.253.130 server1
@@ -12,14 +12,14 @@ vim /etc/hosts
 192.168.253.132 server3
 ```
 
-### 2.运行安装脚本（参数只有一个，分别是1，2，3，代表相对应的server id）
+### 2.Run the installation script (there is only one parameter, which is 1, 2, 3,  represents the corresponding server id)
 ```
 chmod +x install.sh 
 ./install.sh 1
 ```
-> 1是安装server1，2是安装server2, 3是安装server3
+> 1 is to install server1, 2 is to install server2, 3 is to install server3
 
-### 3.访问es（改成相应的ip地址）
+### Access es (change to the corresponding ip address)
 ```
 curl http://127.0.0.1:9200
 
@@ -42,4 +42,6 @@ curl http://127.0.0.1:9200
 }
 ```
 
-ElasticSearch技术QQ群:837411704
+ElasticSearch QQ Goup: 837411704
+Email:hello21st@gmail.com
+
