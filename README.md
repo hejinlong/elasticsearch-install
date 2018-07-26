@@ -17,11 +17,12 @@ vim /etc/hosts
 chmod +x install.sh 
 ./install.sh 1
 ```
-1是安装server1，2是安装server2, 3是安装server3
+> 1是安装server1，2是安装server2, 3是安装server3
 
 ### 3.访问es（改成相应的ip地址）
 ```
 curl http://127.0.0.1:9200
+
 {
   "name" : "node-1",
   "cluster_name" : "es",
@@ -40,6 +41,5 @@ curl http://127.0.0.1:9200
   "tagline" : "You Know, for Search"
 }
 ```
-
 
 ElasticSearch技术QQ群:837411704
