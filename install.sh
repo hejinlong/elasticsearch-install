@@ -39,7 +39,7 @@ echo -e "\033[32m{`date`}[开始]安装ElasticSearch............................
 tar -zxvf elasticsearch-6.3.0.tar.gz 
 mv elasticsearch-6.3.0 /usr/local/elasticsearch
 mv -f elasticsearch.yml /usr/local/elasticsearch/config
-echo -e "node.name: node-$1" >> /usr/local/elasticsearch/config/elasticsearch.yml
+echo -e "\nnode.name: node-$1" >> /usr/local/elasticsearch/config/elasticsearch.yml
 groupadd es
 useradd es -g es -p 111111
 mkdir /home/es/data
