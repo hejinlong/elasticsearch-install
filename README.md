@@ -1,6 +1,11 @@
 # Elasticsearch Install
 
-One-click installation of Elasticsearch cluster
+One-click installation of Elasticsearch cluster.
+
+## Version List:
+* java:1.8.0_131
+* elasticsearch:6.3.0
+
 
 ## Installation Steps:
 
@@ -42,6 +47,5 @@ curl http://127.0.0.1:9200
 }
 ```
 
-ElasticSearch QQ Goup: 837411704
 Email:hello21st@gmail.com
 
