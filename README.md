@@ -19,7 +19,7 @@ chmod +x install.sh
 ```
 > 1 is to install server1, 2 is to install server2, 3 is to install server3
 
-### Access es (change to the corresponding ip address)
+### 3.Access ES (change to the corresponding IP)
 ```
 curl http://127.0.0.1:9200
 
